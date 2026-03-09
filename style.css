@@ -460,6 +460,27 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+  .rodape{
+text-align:center;
+padding:25px;
+background:#ffffff;
+border-top:1px solid #ddd;
+margin-top:40px;
+font-size:14px;
 }
+
+.rodape a{
+display:block;
+margin-top:10px;
+color:#ee4d2d;
+font-weight:bold;
+text-decoration:none;
+}
+
+.rodape a:hover{
+text-decoration:underline;
+}
+}
+
 
 
