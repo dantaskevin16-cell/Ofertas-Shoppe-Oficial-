@@ -644,7 +644,7 @@
   "id": 65,
   "nome": "Kit 4 Perfumes Femininos Árabes 100ml",
   "preco": 67.90,
-  "imagem": "img/Produto65.jpg",
+  "imagem": "img/produto65.jpg",
   "link": "https://s.shopee.com.br/50UCIFammP",
   "vendas": 4000,
   "avaliacao": 4.3,
@@ -674,7 +674,7 @@
   "id": 68,
   "nome": "Kit Wella Pro InvigoO Enrich Shampoo 1L + Condicionador 1L",
   "preco": 155.99,
-  "imagem": "img/Produto68.jpg",
+  "imagem": "img/produto68.jpg",
   "link": "https://s.shopee.com.br/2LTR7mVQQS",
   "vendas": 4000,
   "avaliacao": 4.5,
@@ -700,4 +700,5 @@
   "avaliacao": 4.9,
   "categoria": "Beleza"
 }
+
 ]
