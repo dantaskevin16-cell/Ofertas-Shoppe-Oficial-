@@ -1,0 +1,703 @@
+[
+  {
+    "id": 1,
+    "nome": "Porta Mantimento de Vidro Borossilicato Canelado",
+    "preco": 22.89,
+    "imagem": "img/img_produto1.jpg",
+    "link": "https://s.shopee.com.br/20qXTy33mK",
+    "vendas": 1500,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 2,
+    "nome": "Kit Capas de Almofada Linho 4 Peças Modernas",
+    "preco": 78.90,
+    "imagem": "img/produto2.jpg",
+    "link": "https://s.shopee.com.br/7VBU2TuMlB",
+    "vendas": 442,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 3,
+    "nome": "Kit 10 OU 5 Pote de Vidro Hermético Retangular 4 Travas Marmita Fit Microondas Mantimentos",
+    "preco": 47.90,
+    "imagem": "img/produto3.jpg",
+    "link": "https://s.shopee.com.br/8fNRQrf7be",
+    "vendas": 10000,
+    "avaliacao": 4.8,
+    "categoria": "casa"
+  },
+  {
+    "id": 4,
+    "nome": "Fatiador de Legumes 16 em 1 Cortador Ralador Picador Multifuncional Cozinha com Lâminas Inoxidável",
+    "preco": 47.90,
+    "imagem": "img/produto4.jpg",
+    "link": "https://s.shopee.com.br/4VXsTT67T7",
+    "vendas": 8000,
+    "avaliacao": 4.7,
+    "categoria": "casa"
+  },
+  {
+    "id": 5,
+    "nome": "Inox Prata Torneira Prata/Preto Com Chuveiro Com Rotação De 360° Cozinha Luxo Parede Promoção",
+    "preco": 25.99,
+    "imagem": "img/produto5.jpg",
+    "link": "https://s.shopee.com.br/6Ag6SreR6L",
+    "vendas": 200000,
+    "avaliacao": 4.8,
+    "categoria": "casa"
+  },
+  {
+    "id": 6,
+    "nome": "3 Cores 110V-220V Lustre de Teto LED Para Sala De Jantar e Estar Romântico Luxo Escandinavo O16",
+    "preco": 145.99,
+    "imagem": "img/produto6.jpg",
+    "link": "https://s.shopee.com.br/20qXVJe8NW",
+    "vendas": 1000,
+    "avaliacao": 4.8,
+    "categoria": "casa"
+  },
+  {
+    "id": 7,
+    "nome": "Conjunto 5 Potes de Vidro Hermético Bowl Tigela Com Tampa Marmita Alimentos Preto Branco",
+    "preco": 17.90,
+    "imagem": "img/produto7.jpg",
+    "link": "https://s.shopee.com.br/5fjpsC4ntF",
+    "vendas": 3000,
+    "avaliacao": 4.7,
+    "categoria": "casa"
+  },
+  {
+    "id": 8,
+    "nome": "Estante Prateleira Modular Multiuso 7 Andares Organizadora de Plástico Desmontável Vários Tamanhos",
+    "preco": 31.50,
+    "imagem": "img/produto8.jpg",
+    "link": "https://s.shopee.com.br/7poKSHTGD5",
+    "vendas": 1000,
+    "avaliacao": 4.8,
+    "categoria": "casa"
+  },
+  {
+    "id": 9,
+    "nome": "Cortina Blackout Para Quarto Sala Cozinha PVC Corta 100% Luz 2,80 Largura X 2,30 Altura Grande",
+    "preco": 32.98,
+    "imagem": "img/produto9.jpg",
+    "link": "https://s.shopee.com.br/1qX7JMrsgB",
+    "vendas": 90000,
+    "avaliacao": 4.7,
+    "categoria": "casa"
+  },
+  {
+    "id": 10,
+    "nome": "Jogo Xícaras Café Chá com Pires Madeira Coração Rosa Presente Criativo Mesa Posta Cantinho do Café",
+    "preco": 38.90,
+    "imagem": "img/produto10.jpg",
+    "link": "https://s.shopee.com.br/6VIws3B5Ak",
+    "vendas": 7000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 11,
+    "nome": "Manta Sofá Luxo Gigante 2,10x1,20 - Protetora e Decorativa Cores Variadas",
+    "preco": 24.99,
+    "imagem": "img/produto11.jpg",
+    "link": "https://s.shopee.com.br/W1jj6VyOv",
+    "vendas": 5000,
+    "avaliacao": 4.6,
+    "categoria": "casa"
+  },
+  {
+    "id": 12,
+    "nome": "Conjunto Copos de Vidro com Coração 240ml | Kit com 12 6 ou 03 Unidades | Luxo para Sua Mesa | Ideal para Presentear",
+    "preco": 39.99,
+    "imagem": "img/produto12.jpg",
+    "link": "https://s.shopee.com.br/5q3G4yVz1b",
+    "vendas": 1000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 13,
+    "nome": "Máquina Seladora Embalagem a Vácuo Portátil Alimentos Bivolt Elétrica Embala Conservação + 10 Sacos",
+    "preco": 36.99,
+    "imagem": "img/produto13.jpg",
+    "link": "https://s.shopee.com.br/900Hqum6Zv",
+    "vendas": 4000,
+    "avaliacao": 4.7,
+    "categoria": "casa"
+  },
+  {
+    "id": 14,
+    "nome": "Kit 5 Peças Edredom + Fronha Estampada + Porta-Travesseiro Casal Queen",
+    "preco": 85.88,
+    "imagem": "img/produto14.jpg",
+    "link": "https://s.shopee.com.br/10y0NBuQ6c",
+    "vendas": 2000,
+    "avaliacao": 4.5,
+    "categoria": "casa"
+  },
+  {
+    "id": 15,
+    "nome": "Pano de Prato Atacado Barra Premium Kit com 5 Peças",
+    "preco": 35.89,
+    "imagem": "img/produto15.jpg",
+    "link": "https://s.shopee.com.br/3LLv9ZN7BZ",
+    "vendas": 40000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 16,
+    "nome": "Amolador Afiador de Facas em Aço Inox Profissional",
+    "preco": 13.59,
+    "imagem": "img/produto16.jpg",
+    "link": "https://s.shopee.com.br/4VXsXpG3IC",
+    "vendas": 10000,
+    "avaliacao": 4.8,
+    "categoria": "casa"
+  },
+  {
+    "id": 17,
+    "nome": "Kit 3 Nichos Triplos Prateleiras para Banheiro Organizador em Preto ou Branco 100% MDF",
+    "preco": 52.90,
+    "imagem": "img/produto17.jpg",
+    "link": "https://s.shopee.com.br/2VmoAFydNo",
+    "vendas": 3000,
+    "avaliacao": 4.5,
+    "categoria": "casa"
+  },
+  {
+    "id": 18,
+    "nome": "Potes de Tempero 200ml - Porta Temperos - Cartela de Temperos com 28 Adesivos Opcional",
+    "preco": 19.98,
+    "imagem": "img/produto18.jpg",
+    "link": "https://s.shopee.com.br/2LTNy1barH",
+    "vendas": 3000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 19,
+    "nome": "Porta Frios Hermético Presunto Queijo Kit Acrílico Resistente Triplo Pote Mantimentos",
+    "preco": 17.96,
+    "imagem": "img/produto19.jpg",
+    "link": "https://s.shopee.com.br/7poKWDwUli",
+    "vendas": 10000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  {
+    "id": 20,
+    "nome": "Porta Temperos e Condimentos Giratório de Inox com 12 Potes | Base 360º | Potes de Vidro",
+    "preco": 56.00,
+    "imagem": "img/produto20.jpg",
+    "link": "https://s.shopee.com.br/AKVfUtTDpi",
+    "vendas": 8000,
+    "avaliacao": 4.9,
+    "categoria": "casa"
+  },
+  
+{
+  "id": 21,
+  "nome": "Macaquinho Feminino Academia Fitness Curto Roupa de Academia",
+  "preco": 47.94,
+  "imagem": "img/produto21.jpg",
+  "link": "https://s.shopee.com.br/5VQQ25LqQq",
+  "vendas": 90,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 22,
+  "nome": "Cropped Top Feminino Alcinha Frente Forrada Personalizado Copa 2026 ESTHER BRASIL",
+  "preco": 29.34,
+  "imagem": "img/produto22.jpg",
+  "link": "https://s.shopee.com.br/5L6zpmMTlp",
+  "vendas": 208,
+  "avaliacao": 4.7,
+  "categoria": "moda"
+},
+{
+  "id": 23,
+  "nome": "Jaqueta Jeans Feminina Manga Longa Denim Linha Premium",
+  "preco": 59.80,
+  "imagem": "img/produto23.jpg",
+  "link": "https://s.shopee.com.br/5q3GQhKZkw",
+  "vendas": 3000,
+  "avaliacao": 4.6,
+  "categoria": "moda"
+},
+{
+  "id": 24,
+  "nome": "Kit 3 Conjunto Pijama Feminino Sex Baby Dool Feminino Short Doll",
+  "preco": 29.99,
+  "imagem": "img/produto24.jpg",
+  "link": "",
+  "vendas": 1000,
+  "avaliacao": 4.5,
+  "categoria": "moda"
+},
+{
+  "id": 25,
+  "nome": "Vestido Tropical Longo Tomara que Caia Estampado – Moda Feminina 2026 ENTREGA RAPIDA",
+  "preco": 49.99,
+  "imagem": "img/produto25.jpg",
+  "link": "https://s.shopee.com.br/6Ag6pJJJ52",
+  "vendas": 1000,
+  "avaliacao": 4.9,
+  "categoria": "moda"
+},
+{
+  "id": 26,
+  "nome": "Cropped Top Alça Fina Feminino fitness Copa 2026 ESTHER BRAZIL",
+  "preco": 29.45,
+  "imagem": "img/produto26.jpg",
+  "link": "https://s.shopee.com.br/60Mgd0JwQ1",
+  "vendas": 936,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 27,
+  "nome": "Macacão feminino elegante pantalona longa com cinto, decote em V, costas abertas e bolsos invisíveis, moderno versátil",
+  "preco": 70.00,
+  "imagem": "img/produto27.jpg",
+  "link": "https://s.shopee.com.br/6VIxDvI2P8",
+  "vendas": 1000,
+  "avaliacao": 4.7,
+  "categoria": "moda"
+},
+{
+  "id": 28,
+  "nome": "Pijama De Seda Satin Silk 5 Peças Roupa De Noite Pyjama Esparguete De Renda Sono",
+  "preco": 116.61,
+  "imagem": "img/produto28.jpg",
+  "link": "https://s.shopee.com.br/6KzX1cIfk7",
+  "vendas": 1000,
+  "avaliacao": 4.6,
+  "categoria": "moda"
+},
+{
+  "id": 29,
+  "nome": "Short Cargo Feminino Moletom Shortinho Soltinho Confortável Algodão Cores Lisa",
+  "preco": 39.99,
+  "imagem": "img/produto29.jpg",
+  "link": "https://s.shopee.com.br/40bcFKRYTg",
+  "vendas": 146,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 30,
+  "nome": "Calça Pantalona Feminina Alfaiataria com Bolso Fechamento Ziper na Frente",
+  "preco": 53.10,
+  "imagem": "img/produto30.jpg",
+  "link": "https://s.shopee.com.br/4Av2RdQv8j",
+  "vendas": 2000,
+  "avaliacao": 4.9,
+  "categoria": "moda"
+},
+{
+  "id": 31,
+  "nome": "Macaquinho short saia Feminino Vestido Curto Soltinho Duna Alça com bojo",
+  "preco": 51.98,
+  "imagem": "img/produto31.jpg",
+  "link": "https://s.shopee.com.br/4LESdwQHnm",
+  "vendas": 3000,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 32,
+  "nome": "Camiseta Treino Feminina Docinho Oversized Roupas de Academia Look de Treino Super Poderosas Meme",
+  "preco": 38.90,
+  "imagem": "img/produto32.jpg",
+  "link": "https://s.shopee.com.br/4VXsqFPeSp",
+  "vendas": 1000,
+  "avaliacao": 4.7,
+  "categoria": "moda"
+},
+{
+  "id": 33,
+  "nome": "Vestido Virginia Feminino Tricot Modal Listrado Colorido Carnaval",
+  "preco": 49.90,
+  "imagem": "img/produto33.jpg",
+  "link": "https://s.shopee.com.br/4frJ2YP17s",
+  "vendas": 81,
+  "avaliacao": 4.6,
+  "categoria": "moda"
+},
+{
+  "id": 34,
+  "nome": "Conjunto Feminino Alfaiataria Blusa Colete Calça Pantalona Social Elegante com Botão Trabalho Festa Moda Evangélica",
+  "preco": 69.88,
+  "imagem": "img/produto34.jpg",
+  "link": "https://s.shopee.com.br/4qAjErONmv",
+  "vendas": 1000,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 35,
+  "nome": "Macacão Longo de Academia Feminino Macacão Fitness Bicolor com Costas Abertas em Suplex",
+  "preco": 70.79,
+  "imagem": "img/produto35.jpg",
+  "link": "https://s.shopee.com.br/50U9RANkRy",
+  "vendas": 1000,
+  "avaliacao": 4.9,
+  "categoria": "moda"
+},
+{
+  "id": 36,
+  "nome": "Regatas Cropped do Brasil Feminina Ribana Copa Bandeira BORDADA",
+  "preco": 29.90,
+  "imagem": "img/produto36.jpg",
+  "link": "https://s.shopee.com.br/5AnZdTN771",
+  "vendas": 47,
+  "avaliacao": 4.5,
+  "categoria": "moda"
+},
+{
+  "id": 37,
+  "nome": "Calça Pantalona FORRADA DUNA Feminina Cintura Alta Com Bolso Tecido Fresco",
+  "preco": 49.99,
+  "imagem": "img/produto37.jpg",
+  "link": "https://s.shopee.com.br/2g6EesWdBY",
+  "vendas": 3000,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 38,
+  "nome": "Sutiã Feminino Push Up Plus Size Copo Completo Ajustável Preto Cinza Pele",
+  "preco": 37.99,
+  "imagem": "img/produto38.jpg",
+  "link": "https://s.shopee.com.br/2qPerBVzqb",
+  "vendas": 3000,
+  "avaliacao": 4.7,
+  "categoria": "moda"
+},
+{
+  "id": 39,
+  "nome": "Saia Midi de Alfaiataria Com Cinto Moda feminina Elegante Tecido premium",
+  "preco": 45.99,
+  "imagem": "img/produto39.jpg",
+  "link": "https://s.shopee.com.br/30j53UVMVe",
+  "vendas": 2000,
+  "avaliacao": 4.8,
+  "categoria": "moda"
+},
+{
+  "id": 40,
+  "nome": "Cropped Feminino Corset Renda Corselet Alça Regulagem",
+  "preco": 27.99,
+  "imagem": "img/produto40.jpg",
+  "link": "https://s.shopee.com.br/3B2VFnUjAh",
+  "vendas": 2000,
+  "avaliacao": 4.9,
+  "categoria": "moda"
+},
+{
+  "id": 41,
+  "nome": "Kit 25 Embalagem Ovo de Páscoa 100g-750g Metalizada Vários Tamanhos e Estampas Saco Envelope",
+  "preco": 34.90,
+  "imagem": "img/produto41.jpg",
+  "link": "https://s.shopee.com.br/3fyltER3nq",
+  "vendas": 250,
+  "avaliacao": 4.7,
+  "categoria": "papelaria"
+},
+{
+  "id": 42,
+  "nome": "Caneta Cristal Fashion Cores Bic",
+  "preco": 16.99,
+  "imagem": "img/produto42.jpg",
+  "link": "https://s.shopee.com.br/3qIC5XQQSt",
+  "vendas": 88,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 43,
+  "nome": "Adesivos Patinha de Coelho Caça aos Ovos de Páscoa - Recortado e Pronto pra Colar #2",
+  "preco": 12.90,
+  "imagem": "img/produto43.jpg",
+  "link": "https://s.shopee.com.br/40bcHqPn7w",
+  "vendas": 2000,
+  "avaliacao": 4.9,
+  "categoria": "papelaria"
+},
+{
+  "id": 44,
+  "nome": "Carimbo De Nome Personalizado De Dinossauro De Desenho Animado Para Personalização Bebê Estudante Capítulo Selo Infantil",
+  "preco": 14.00,
+  "imagem": "img/produto44.jpg",
+  "link": "https://s.shopee.com.br/4Av2U9P9mz",
+  "vendas": 20000,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 45,
+  "nome": "10 Caixas para ovo de colher 18x14x7,5 - 250 - 350 - 500 gr (L97-T)",
+  "preco": 35.75,
+  "imagem": "img/produto45.jpg",
+  "link": "https://s.shopee.com.br/4LESgSOWS2",
+  "vendas": 4000,
+  "avaliacao": 4.6,
+  "categoria": "papelaria"
+},
+{
+  "id": 46,
+  "nome": "Kit 4/6 Cores Marca Texto Alta Qualidade Nao Transborda Caderno Estudante Presente",
+  "preco": 13.99,
+  "imagem": "img/produto50.jpg",
+  "link": "https://s.shopee.com.br/4VXsslNt75",
+  "vendas": 1000,
+  "avaliacao": 4.7,
+  "categoria": "papelaria"
+},
+{
+  "id": 47,
+  "nome": "Kit 25 Sacos Embalagem Ovo Páscoa 250g a 500g Diversos Modelos e Tamanhos",
+  "preco": 49.99,
+  "imagem": "img/produto49.jpg",
+  "link": "https://s.shopee.com.br/4frJ54NFm8",
+  "vendas": 229,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 48,
+  "nome": "Carimbo Para Tecido Personalizado + Tinta Para Tecido - Carimbo Para Tecido Automático Nykon",
+  "preco": 34.90,
+  "imagem": "img/produto48.jpg",
+  "link": "https://s.shopee.com.br/4qAjHNMcRB",
+  "vendas": 9000,
+  "avaliacao": 4.9,
+  "categoria": "papelaria"
+},
+{
+  "id": 49,
+  "nome": "Caderneta de Saúde/Vacina - Menino - Capa Dura - Personalizada - Vários Temas",
+  "preco": 32.99,
+  "imagem": "img/produto47.jpg",
+  "link": "https://s.shopee.com.br/50U9TgLz6E",
+  "vendas": 20000,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 50,
+  "nome": "36 Etiquetas para Potes de Condimentos Temperos Mantimentos 3,8x3,8cm",
+  "preco": 10.90,
+  "imagem": "img/produto55.jpg",
+  "link": "https://s.shopee.com.br/5AnZfzLLlH",
+  "vendas": 100000,
+  "avaliacao": 4.7,
+  "categoria": "papelaria"
+},
+{
+  "id": 51,
+  "nome": "Marca Texto Perfumado Be Bold Newpen - Fruit Edition/Food Edition",
+  "preco": 13.90,
+  "imagem": "img/produto54.jpg",
+  "link": "https://s.shopee.com.br/15TWUf1FI",
+  "vendas": 178,
+  "avaliacao": 4.6,
+  "categoria": "papelaria"
+},
+{
+   "id": 52,
+  "nome": "KIT Caixa Coração Acrílico Com Xícaras em acrílico Amor presente Dia Das Mães amor de mãe coração",
+  "preco": 35.91,
+  "imagem": "img/produto53.jpg",
+  "link": "https://s.shopee.com.br/BOtineNuL",
+  "vendas": 4000,
+  "avaliacao": 4.8,
+  "categoria":"papelaria"
+},
+{
+  "id": 53,
+  "nome": "Material Escolar Papelaria Fofa Kit Stitch",
+  "preco": 17.99,
+  "imagem": "img/produto52.jpg",
+  "link": "https://s.shopee.com.br/LiJv6dkZO",
+  "vendas": 75,
+  "avaliacao": 4.5,
+  "categoria": "papelaria"
+},
+{
+  "id": 54,
+  "nome": "Placa Pix para Pagamento Qrcode em Acrilico",
+  "preco": 13.50,
+  "imagem": "img/produto51.jpg",
+  "link": "https://s.shopee.com.br/W1k7Pd7ER",
+  "vendas": 328,
+  "avaliacao": 4.7,
+  "categoria": "papelaria"
+},
+{
+  "id": 55,
+  "nome": "Rolo de TNT 40G - 50 Metros 1,40 de Largura",
+  "preco": 62.10,
+  "imagem": "img/produto56.jpg",
+  "link": "https://s.shopee.com.br/gLAJicTtU",
+  "vendas": 2000,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 56,
+  "nome": "10 CAIXA LEMBRANCINHA PÁSCOA ORELHA P 1 DOCE 5X5X5 - PASCOA ENCANTOS 5804 ( IDEIA PÁSCOA 2026 )",
+  "preco": 18.85,
+  "imagem": "img/produto57.jpg",
+  "link": "https://s.shopee.com.br/qeaW1bqYX",
+  "vendas": 250,
+  "avaliacao": 4.6,
+  "categoria": "papelaria"
+},
+{
+  "id": 57,
+  "nome": "Kit Caneta Faber Castell Trilux Colors 1.0mm Corpo Transparente Colorida Tom Pastel Coleção Completa",
+  "preco": 10.00,
+  "imagem": "img/produto58.jpg",
+  "link": "https://s.shopee.com.br/10y0iKbDDa",
+  "vendas": 10000,
+  "avaliacao": 4.9,
+  "categoria": "papelaria"
+},
+{
+  "id": 58,
+  "nome": "Caderno Temático Personalizado A5 – Clássicos da Sua Infância | 200 Páginas",
+  "preco": 29.90,
+  "imagem": "img/produto59.jpg",
+  "link": "https://s.shopee.com.br/1BHQudaZsd",
+  "vendas": 1000,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 59,
+  "nome": "Grande Capacidade Kawaii Lápis Caso Saco Flip Capa Caixa Simples Para Studnets De Volta Às Aulas Material De Escritório",
+  "preco": 13.00,
+  "imagem": "img/produto60.jpg",
+  "link": "https://s.shopee.com.br/1Lar6wZwXg",
+  "vendas": 1000,
+  "avaliacao": 4.7,
+  "categoria": "papelaria"
+},
+{
+  "id": 60,
+  "nome": "5Pcs/set Cute Cartoon KT Gel Pen Preto Tinta Preta Escrita Estudante Papelaria",
+  "preco": 7.00,
+  "imagem": "img/produto46.jpg",
+  "link": "https://s.shopee.com.br/1VuHJFZJCj",
+  "vendas": 10000,
+  "avaliacao": 4.8,
+  "categoria": "papelaria"
+},
+{
+  "id": 61,
+  "nome": "Kit com 3 Cremes Hidratantes Corporais Nativa Spa – 400ml Cada",
+  "preco": 27.99,
+  "imagem": "img/produto61.jpg",
+  "link": "https://s.shopee.com.br/8KkeFvvXhx",
+  "vendas": 2,
+  "avaliacao": 3.0,
+  "categoria": "Beleza"
+},
+{
+  "id": 62,
+  "nome": "Kiko Lip Gloss 6.5ML /3D Hydra Lipgloss /Water Gloss Hidratante / Longa Duração Não Desbotante",
+  "preco": 15.88,
+  "imagem": "img/produto62.jpg",
+  "link": "https://s.shopee.com.br/9fG1qW4hFg",
+  "vendas": 20000,
+  "avaliacao": 4.8,
+  "categoria": "Beleza"
+},
+{
+  "id": 63,
+  "nome": "KIT SIAGE EUDORA LOIRO EXPERT CONDICIONADOR 200ML+ SHAMPOO 250ML+ MASCARA 250G",
+  "preco": 55.90,
+  "imagem": "img/produto63.jpg",
+  "link": "https://s.shopee.com.br/AUp8qAGIO7",
+  "vendas": 275,
+  "avaliacao": 4.9,
+  "categoria": "Beleza"
+},
+{
+  "id": 64,
+  "nome": "Organizador de maquiagem Acrílico Giratório 360º Suporte Para Cosméticos",
+  "preco": 39.90,
+  "imagem": "img/produto64.jpg",
+  "link": "https://s.shopee.com.br/BOwXHM0Yl",
+  "vendas": 80000,
+  "avaliacao": 4.4,
+  "categoria": "Beleza"
+},
+{
+  "id": 65,
+  "nome": "Kit 4 Perfumes Femininos Árabes 100ml",
+  "preco": 67.90,
+  "imagem": "img/Produto65.jpg",
+  "link": "https://s.shopee.com.br/50UCIFammP",
+  "vendas": 4000,
+  "avaliacao": 4.3,
+  "categoria": "Beleza"
+},
+{
+  "id": 66,
+  "nome": "Kit Completo Karseell Máscara 500 g + condicionador 1L + Shampoo 1L + Óleo karseell P 50ml",
+  "preco": 47.00,
+  "imagem": "img/produto66.jpg",
+  "link": "https://s.shopee.com.br/807nrybZj9",
+  "vendas": 2000,
+  "avaliacao": 4.8,
+  "categoria": "Beleza"
+},
+{
+  "id": 67,
+  "nome": "Prateleira Bandeja Organizador Acrílico Porta Maquiagem Beleza Multiuso",
+  "preco": 32.90,
+  "imagem": "img/produto67.jpg",
+  "link": "https://s.shopee.com.br/8pgurcEFdN",
+  "vendas": 194,
+  "avaliacao": 4.8,
+  "categoria": "Beleza"
+},
+{
+  "id": 68,
+  "nome": "Kit Wella Pro InvigoO Enrich Shampoo 1L + Condicionador 1L",
+  "preco": 155.99,
+  "imagem": "img/Produto68.jpg",
+  "link": "https://s.shopee.com.br/2LTR7mVQQS",
+  "vendas": 4000,
+  "avaliacao": 4.5,
+  "categoria": "Beleza"
+},
+{
+  "id": 69,
+  "nome": "Kit Esmaltes Impala Verniz Extra Brilho Cobertura Espelhada Longa Durabilidade Manicure e Pedicure",
+  "preco": 20.00,
+  "imagem": "img/produto69.jpg",
+  "link": "https://s.shopee.com.br/5fjt5yv3r8",
+  "vendas": 3000,
+  "avaliacao": 5.0,
+  "categoria": "Beleza"
+},
+{
+  "id": 70,
+  "nome": "Lola Rapunzel Tonico de crescimento 250ml",
+  "preco": 34.90,
+  "imagem": "img/produto70.jpg",
+  "link": "https://s.shopee.com.br/AACISM6APB",
+  "vendas": 60000,
+  "avaliacao": 4.9,
+  "categoria": "Beleza"
+}
+]
