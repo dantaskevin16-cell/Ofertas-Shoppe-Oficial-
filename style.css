@@ -21,20 +21,25 @@
   --raio:16px;
 }
 
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
 body{
   font-family:Arial, Helvetica, sans-serif;
   background:linear-gradient(180deg, #f8fbff 0%, #f4f7fb 100%);
   color:var(--cor-texto);
-  overflow-x:hidden;
-  padding-left:180px;
-  padding-right:180px;
+  padding-left:0;
+  padding-right:0;
 }
 
 /* TOPO */
 .topo{
   background:linear-gradient(135deg, var(--cor-primaria), var(--cor-secundaria));
   color:white;
-  padding:20px 20px;
+  padding:20px 16px;
   box-shadow:0 4px 18px rgba(0,0,0,0.10);
 }
 
@@ -44,6 +49,13 @@ body{
   display:flex;
   align-items:center;
   gap:15px;
+  flex-wrap:wrap;
+}
+
+.logo-area a{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
 }
 
 .logo{
@@ -54,24 +66,28 @@ body{
   padding:6px;
   border-radius:14px;
   box-shadow:0 4px 12px rgba(0,0,0,0.10);
+  display:block;
 }
 
 .logo-area h1{
   font-size:28px;
   margin-bottom:2px;
   font-weight:700;
+  line-height:1.2;
 }
 
 .subtitulo{
   font-size:14px;
   opacity:0.95;
+  line-height:1.4;
 }
 
 /* CONTAINER */
 .container{
-  max-width:1500px;
+  width:100%;
+  max-width:1200px;
   margin:30px auto;
-  padding:0 20px;
+  padding:0 16px;
 }
 
 /* HERO */
@@ -87,10 +103,12 @@ body{
   color:var(--cor-primaria);
   margin-bottom:10px;
   font-size:28px;
+  line-height:1.2;
 }
 
 .hero p{
   color:var(--cor-texto-suave);
+  line-height:1.5;
 }
 
 /* FAIXA */
@@ -115,6 +133,7 @@ body{
   border-radius:999px;
   font-size:14px;
   font-weight:700;
+  text-align:center;
 }
 
 /* CONTROLES */
@@ -127,9 +146,27 @@ body{
 
 .controles input,
 .controles select{
+  width:100%;
+  min-width:0;
   padding:13px;
   border-radius:12px;
   border:1px solid var(--cor-borda);
+  outline:none;
+  background:#fff;
+  font-size:14px;
+}
+
+.controles input:focus,
+.controles select:focus{
+  border-color:var(--cor-primaria);
+}
+
+/* TÍTULO DE SEÇÃO */
+.secao-titulo{
+  margin-bottom:18px;
+  font-size:26px;
+  line-height:1.2;
+  color:var(--cor-texto);
 }
 
 /* GRID */
@@ -147,23 +184,34 @@ body{
   box-shadow:var(--sombra-leve);
   display:flex;
   flex-direction:column;
+  min-width:0;
+  transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-produto:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--sombra-media);
 }
 
 .card-produto img{
   width:100%;
   height:200px;
   object-fit:cover;
+  display:block;
 }
 
 .info-produto{
   padding:14px;
   display:flex;
   flex-direction:column;
+  flex:1;
 }
 
 .nome-produto{
   font-size:15px;
   margin-bottom:8px;
+  line-height:1.4;
+  word-break:break-word;
 }
 
 .bloco-precos{
@@ -174,18 +222,22 @@ body{
   font-size:14px;
   color:#9ca3af;
   text-decoration:line-through;
+  display:block;
+  margin-bottom:4px;
 }
 
 .preco{
   font-size:21px;
   color:var(--cor-sucesso);
   font-weight:bold;
+  line-height:1.2;
 }
 
 .meta{
   font-size:13px;
   color:var(--cor-texto-suave);
   margin-bottom:12px;
+  line-height:1.4;
 }
 
 .botao-oferta{
@@ -196,6 +248,22 @@ body{
   border-radius:12px;
   text-decoration:none;
   font-weight:bold;
+  margin-top:auto;
+  display:block;
+  width:100%;
+}
+
+.botao-oferta:hover{
+  opacity:0.95;
+}
+
+/* MENSAGEM / LOADER */
+.mensagem,
+.loader{
+  text-align:center;
+  padding:20px 10px;
+  color:var(--cor-texto-suave);
+  font-size:14px;
 }
 
 /* RODAPÉ */
@@ -204,7 +272,7 @@ body{
   background:linear-gradient(135deg,#0f172a,#1e293b);
   color:white;
   text-align:center;
-  padding:22px;
+  padding:22px 16px;
   font-size:14px;
 }
 
@@ -220,11 +288,12 @@ body{
   text-decoration:underline;
 }
 
-/* ANUNCIOS */
+/* ANÚNCIOS LATERAIS */
 .anuncio-lateral{
   position:fixed;
   top:120px;
   width:160px;
+  z-index:10;
 }
 
 .anuncio-esquerda{
@@ -235,11 +304,16 @@ body{
   right:10px;
 }
 
+.anuncio-lateral a{
+  display:block;
+}
+
 .anuncio-lateral video{
   width:100%;
   height:500px;
   object-fit:cover;
   border-radius:22px;
+  display:block;
 }
 
 /* WHATSAPP */
@@ -252,43 +326,184 @@ body{
   padding:14px 20px;
   border-radius:50px;
   text-decoration:none;
+  font-weight:bold;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  z-index:20;
 }
 
-/* RESPONSIVO */
-@media (max-width:1200px){
-
-body{
-padding-left:120px;
-padding-right:120px;
+/* TELAS MENORES */
+@media (max-width:1400px){
+  .anuncio-lateral{
+    display:none;
+  }
 }
 
-.anuncio-lateral{
-display:none;
+/* NOTEBOOK / TABLET */
+@media (max-width:1024px){
+  .container{
+    max-width:1000px;
+    padding:0 14px;
+  }
+
+  .controles{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .controles input{
+    grid-column:1 / -1;
+  }
+
+  .grid-produtos{
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  }
 }
 
-}
-
+/* TABLET / CELULAR */
 @media (max-width:800px){
+  .topo{
+    padding:18px 14px;
+  }
 
-.controles{
-grid-template-columns:1fr;
+  .logo-area{
+    gap:12px;
+  }
+
+  .logo{
+    width:54px;
+    height:54px;
+  }
+
+  .logo-area h1{
+    font-size:22px;
+  }
+
+  .subtitulo{
+    font-size:13px;
+  }
+
+  .container{
+    margin:20px auto;
+    padding:0 12px;
+  }
+
+  .hero{
+    padding:20px;
+    border-radius:16px;
+  }
+
+  .hero h2{
+    font-size:22px;
+  }
+
+  .faixa-destaque{
+    padding:16px;
+    border-radius:16px;
+  }
+
+  .controles{
+    grid-template-columns:1fr;
+  }
+
+  .grid-produtos{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:14px;
+  }
+
+  .card-produto img{
+    height:170px;
+  }
+
+  .preco{
+    font-size:19px;
+  }
+
+  .whatsapp-btn{
+    bottom:15px;
+    right:15px;
+    padding:12px 16px;
+    font-size:14px;
+  }
 }
 
-.logo-area h1{
-font-size:22px;
-}
+/* CELULAR */
+@media (max-width:560px){
+  .topo{
+    padding:16px 12px;
+  }
 
-.grid-produtos{
-grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-}
+  .logo-area{
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+  }
 
-.card-produto img{
-height:160px;
-}
+  .logo-area h1{
+    font-size:20px;
+  }
 
-.whatsapp-btn{
-bottom:15px;
-right:15px;
-}
+  .subtitulo{
+    font-size:13px;
+  }
 
+  .container{
+    padding:0 10px;
+  }
+
+  .hero{
+    padding:18px 16px;
+  }
+
+  .hero h2{
+    font-size:20px;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  .itens-destaque{
+    gap:10px;
+  }
+
+  .itens-destaque span{
+    width:100%;
+    font-size:13px;
+  }
+
+  .secao-titulo{
+    font-size:22px;
+  }
+
+  .grid-produtos{
+    grid-template-columns:1fr;
+  }
+
+  .card-produto img{
+    height:220px;
+  }
+
+  .nome-produto{
+    font-size:14px;
+  }
+
+  .preco{
+    font-size:18px;
+  }
+
+  .meta{
+    font-size:12px;
+  }
+
+  .rodape{
+    font-size:13px;
+    padding:20px 12px 80px;
+  }
+
+  .whatsapp-btn{
+    left:10px;
+    right:10px;
+    bottom:10px;
+    text-align:center;
+    border-radius:14px;
+  }
 }
